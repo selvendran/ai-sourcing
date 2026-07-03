@@ -1,0 +1,867 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 HelveticaNeue-Italic;
+\f3\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red13\green14\blue17;\red109\green109\blue109;\red0\green0\blue0;
+\red230\green234\blue239;\red247\green249\blue250;\red255\green255\blue255;\red42\green44\blue51;\red219\green63\blue57;
+\red50\green94\blue238;\red66\green147\blue62;\red167\green87\blue5;\red107\green0\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c5882\c6667\c8235;\cssrgb\c50196\c50196\c50196;\cssrgb\c0\c0\c0\c10196;
+\cssrgb\c92157\c93333\c94902;\cssrgb\c97647\c98039\c98431;\cssrgb\c100000\c100000\c100000;\cssrgb\c21961\c22745\c25882;\cssrgb\c89412\c33725\c28627;
+\cssrgb\c25098\c47059\c94902;\cssrgb\c31373\c63137\c30980;\cssrgb\c71765\c41961\c392;\cssrgb\c50196\c0\c50196;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid202\'01\'01;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid302\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid502\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid702\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid8}
+{\list\listtemplateid9\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid802\'01\'01;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listname ;}\listid9}
+{\list\listtemplateid10\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid902\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid10}
+{\list\listtemplateid11\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1002\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid11}
+{\list\listtemplateid12\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid12}
+{\list\listtemplateid13\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1202\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid13}
+{\list\listtemplateid14\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid14}
+{\list\listtemplateid15\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid15}
+{\list\listtemplateid16\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1501\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1502\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid16}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}{\listoverride\listid9\listoverridecount0\ls9}{\listoverride\listid10\listoverridecount0\ls10}{\listoverride\listid11\listoverridecount0\ls11}{\listoverride\listid12\listoverridecount0\ls12}{\listoverride\listid13\listoverridecount0\ls13}{\listoverride\listid14\listoverridecount0\ls14}{\listoverride\listid15\listoverridecount0\ls15}{\listoverride\listid16\listoverridecount0\ls16}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs48 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 MASTER REQUIREMENTS DOCUMENT (FINAL v4.0)\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f1\b0\fs32 \cf2 Product Name:\'a0Universal Talent Discovery Engine (The Sourcer\'92s Copilot)\uc0\u8232 Core Mission:\'a0An AI-driven, self-learning platform that autonomously translates any Job Description into a ranked, verified list of exact-fit candidates across 14+ professional domains by analyzing the\'a0
+\f2\i actual systems they built
+\f1\i0 , their\'a0
+\f2\i career footprint
+\f1\i0 , and their\'a0
+\f2\i verified experience
+\f1\i0 , filtered through recruiter-defined constraints (Must-Haves, Blacklists, and Immediate Availability).\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs44 \cf2 \cb1 \strokec2 SECTION 1: CORE PHILOSOPHY & SYSTEM PRINCIPLES\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Autonomous Pipeline, Not a Tool:\'a0The platform does not just generate a search string for the user to copy-paste. It handles the entire lifecycle: JD Parsing \uc0\u8594  Multi-Platform Boolean Generation \u8594  Headless Scraping \u8594  Deep-Profile Data Extraction \u8594  Semantic Ranking \u8594  Self-Learning Feedback \u8594  CSV Export.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 "Systems Built" Metric, Not Keyword Count:\'a0The ranking algorithm does not give weight to candidates who simply "know" a skill (e.g.,\'a0
+\f3\fs28 \cb5 Python
+\f1\fs32 \cb1 ). It heavily weights candidates who have\'a0architected, scaled, designed, or led\'a0the development of complex systems, as evidenced by their actual career history.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Universal Domain Application:\'a0The engine is dynamically adaptable. It is not hardcoded for\'a0
+\f3\fs28 \cb5 Python
+\f1\fs32 \cb1 \'a0or\'a0
+\f3\fs28 \cb5 React
+\f1\fs32 \cb1 . It works for any role: Software Engineers, CMOs, Product Designers, ML Researchers, and Supply Chain Managers. The logic is\'a0
+\f2\i semantic and contextual
+\f1\i0 , not keyword-dependent.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Recruiter-Controlled Constraints:\'a0The system provides the recruiter with key input controls (Must-Haves, Nice-to-Haves, Blacklist Keywords, Immediate Joiner Toggle) to ensure the results align with their specific hiring strategy.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Self-Evolving Intelligence:\'a0The system caches profiles to save time, learns from successful searches to prioritize future Boolean strings, ensures data freshness with scheduled re-scraping, and learns from recruiter "Shortlist" and "Ignore" feedback.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs44 \cf2 \cb1 \strokec2 SECTION 2: UI REQUIREMENTS (The "Google-like" Interface)\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\fs40 \cf2 2.1 The Input Panel\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Layout:\'a0A single, centered, clean white page with a large, uncluttered text input area.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Team Passcode:\'a0A single-line password input at the top for secure access (uses the\'a0
+\f3\fs28 \cb5 TEAM_PASSCODE
+\f1\fs32 \cb1 \'a0environment variable).\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Job Description Input:\'a0A large, multi-line text area labeled\'a0
+\f3\fs28 \cb5 "Paste Job Description here..."
+\f1\fs32 \cb1 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Must-Haves & Nice-to-Haves:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Two distinct checkboxes placed below the JD input box.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1
+\f3\fs28 \cf2 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 [ ] The JD contains "Must-Haves" and "Nice-to-Haves" sections
+\f1\fs32 \cb1 .\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If checked, the system expects the user to paste the requirements in order, or separates them via LLM prompt.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Blacklist Filter:\'a0A single-line input labeled\'a0
+\f3\fs28 \cb5 "Blacklist Keywords (Comma separated)"
+\f1\fs32 \cb1 \'a0(e.g.,\'a0
+\f3\fs28 \cb5 Intern, Fresher, Trainee, Dubai, Mumbai
+\f1\fs32 \cb1 ).\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Immediate Joiner Toggle:\'a0A checkbox labeled\'a0
+\f3\fs28 \cb5 "Prioritize Immediate Joiners"
+\f1\fs32 \cb1 \'a0(If checked, adds a\'a0
+\f3\fs28 \cb5 +5
+\f1\fs32 \cb1 \'a0tie-breaker bonus to candidates tagged as\'a0
+\f3\fs28 \cb5 is_available_now = true
+\f1\fs32 \cb1 ).\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Trigger:\'a0A large, branded action button\'a0
+\f3\fs28 \cb5 "Find Candidates"
+\f1\fs32 \cb1 .\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 2.2 The Processing Display (The Feedback Loop)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls3\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 A subtle progress bar showing the current stage with a percentage:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls3\ilvl1
+\f3\fs28 \cf2 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 "Extracting JD Structure... (15%)"
+\f1\fs32 \cb1 \
+\ls3\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 "Generating X-Ray Strings... (30%)"
+\f1\fs32 \cb1 \
+\ls3\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 "Searching Platforms... (50%)"
+\f1\fs32 \cb1 \
+\ls3\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 "Scraping & Analyzing Profiles... (70%)"
+\f1\fs32 \cb1 \
+\ls3\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 "Ranking Candidates... (90%)"
+\f1\fs32 \cb1 \
+\ls3\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 "Ready! (100%)"
+\f1\fs32 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 2.3 The Results Panel\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Layout:\'a0A vertical, scrollable feed of\'a0Ranked Cards. The user does not see a Google search bar; they see ranked profiles immediately.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls4\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Card Content (Per Candidate):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls4\ilvl1
+\f3\fs28 \cf2 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Rank
+\f1\fs32 \cb1 \'a0(1, 2, 3...).\
+\ls4\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Match Score
+\f1\fs32 \cb1 \'a0(e.g.,\'a0
+\f3\fs28 \cb5 94/100
+\f1\fs32 \cb1 ).\
+\ls4\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Candidate Name
+\f1\fs32 \cb1 .\
+\ls4\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Current Title
+\f1\fs32 \cb1 \'a0&\'a0
+\f3\fs28 \cb5 Company
+\f1\fs32 \cb1 .\
+\ls4\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Location
+\f1\fs32 \cb1 .\
+\ls4\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Verified Experience
+\f1\fs32 \cb1 \'a0(e.g.,\'a0
+\f3\fs28 \cb5 8 Years Verified
+\f1\fs32 \cb1 ).\
+\ls4\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Immediate Availability Badge
+\f1\fs32 \cb1 \'a0(e.g.,\'a0
+\f3\fs28 \cb5 \uc0\u9889  Immediate Joiner
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 \uc0\u55357 \u57314  Open to Work
+\f1\fs32 \cb1 , or\'a0
+\f3\fs28 \cb5 None
+\f1\fs32 \cb1 ).\
+\ls4\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 AI Reasoning
+\f1\fs32 \cb1 \'a0(e.g.,\'a0
+\f2\i "Architected a high-scale distributed system. Matched 4/5 Must-Have skills. 9 years verified experience."
+\f1\i0 ).\
+\ls4\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Action Buttons
+\f1\fs32 \cb1 :\'a0
+\f3\fs28 \cb5 View LinkedIn Profile \uc0\u10132 
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Shortlist
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Ignore
+\f1\fs32 \cb1 .\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 2.4 The "Transparency" Panel (The Sourcer's Trust)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 UI Component:\'a0An expandable accordion/dropdown labeled\'a0
+\f3\fs28 \cb5 "\uc0\u55357 \u57056 \u65039  View X-Ray Strings Used"
+\f1\fs32 \cb1 \'a0located above the results feed.\
+\ls5\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Content:\'a0Displays the exact deterministic X-Ray strings the backend ran for\'a0
+\f2\i each
+\f1\i0 \'a0platform (e.g.,\'a0
+\f3\fs28 \cb5 site:linkedin.com/in "Senior Engineer" location:Bengaluru AND ("Python" OR "React") -jobs -dir
+\f1\fs32 \cb1 ).\
+\ls5\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Purpose:\'a0Allows the sourcer to audit the AI's logic, understand why certain profiles were pulled, and manually tweak the string for future runs.\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 2.5 The "Deliverable" Exporter\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 UI Action:\'a0A single\'a0
+\f3\fs28 \cb5 "Export as CSV"
+\f1\fs32 \cb1 \'a0button located at the bottom of the results panel.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls6\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 CSV Content:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls6\ilvl1
+\f3\fs28 \cf2 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Candidate Name
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Current Title
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Company
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Location
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Profile URL
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 AI Match Score
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Verified Experience Years
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 AI Reasoning
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Immediate Status
+\f1\fs32 \cb1 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Purpose:\'a0The sourcer can instantly email this CSV to the Hiring Manager or import it into their ATS.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs44 \cf2 \cb1 \strokec2 SECTION 3: BACKEND FUNCTIONAL REQUIREMENTS (The "What")\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\fs40 \cf2 3.1 The Universal Input & AI Extractor\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Backend Action:\'a0The system sends the JD to an LLM (Groq, model\'a0
+\f3\fs28 \cb5 llama-3.3-70b-versatile
+\f1\fs32 \cb1 ) with a strict JSON extraction prompt.\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Constraint:\'a0The LLM is strictly prohibited from writing the search string. Its only job is to output structured, clean data.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls7\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Strict JSON Output Schema:\uc0\u8232 
+\f3\fs24 \cb6 json
+\f1\fs26 \cb1 \uc0\u8232 
+\fs32 \cb7 \uc0\u8232 
+\f3\fs26 \cf8 \cb6 \strokec8 \{\cf2 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2   \cf9 \strokec9 "titles"\cf10 \strokec10 :\cf2 \strokec2  \cf8 \strokec8 [\cf11 \strokec11 "Senior Engineer"\cf8 \strokec8 ,\cf2 \strokec2  \cf11 \strokec11 "Lead Developer"\cf8 \strokec8 ],\cf2 \strokec2 \
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2   \cf9 \strokec9 "skills"\cf10 \strokec10 :\cf2 \strokec2  \cf8 \strokec8 [\cf11 \strokec11 "Python"\cf8 \strokec8 ,\cf2 \strokec2  \cf11 \strokec11 "React"\cf8 \strokec8 ,\cf2 \strokec2  \cf11 \strokec11 "AWS"\cf8 \strokec8 ],\cf2 \strokec2 \
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2   \cf9 \strokec9 "location"\cf10 \strokec10 :\cf2 \strokec2  \cf11 \strokec11 "Bangalore"\cf8 \strokec8 ,\cf2 \strokec2 \
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2   \cf9 \strokec9 "experience_years"\cf10 \strokec10 :\cf2 \strokec2  \cf12 \strokec12 8\cf8 \strokec8 ,\cf2 \strokec2 \
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2   \cf9 \strokec9 "industry"\cf10 \strokec10 :\cf2 \strokec2  \cf11 \strokec11 "FinTech"\cf8 \strokec8 ,\cf2 \strokec2 \
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2   \cf9 \strokec9 "nice_to_have"\cf10 \strokec10 :\cf2 \strokec2  \cf8 \strokec8 [\cf11 \strokec11 "Kafka"\cf8 \strokec8 ,\cf2 \strokec2  \cf11 \strokec11 "Microservices"\cf8 \strokec8 ]\cf2 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0\cf8 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec8 \}\cf2 \cb1 \strokec2 \uc0\u8232 
+\f1\fs32 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 3.2 The "Omni-Platform" Dynamic Router & Deterministic String Generator\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls8\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Logic:\'a0The backend uses the extracted JSON to build deterministic, clean search strings using a\'a0hardcoded, platform-specific strategy\'a0(no LLM involvement in syntax writing).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls8\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Platform List (14+ Domains):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls8\ilvl1
+\f3\fs28 \cf2 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 linkedin.com/in
+\f1\fs32 \cb1 \'a0(Corporate/Executive)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 github.com
+\f1\fs32 \cb1 \'a0(Tech/Open Source)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 sites.google.com
+\f1\fs32 \cb1 \'a0(Personal Portfolios)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 scholar.google.com
+\f1\fs32 \cb1 \'a0(Research/Academic)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 dribbble.com
+\f1\fs32 \cb1 \'a0(Creative/Design)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 stackoverflow.com
+\f1\fs32 \cb1 \'a0(Engineering Q&A)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 x.com
+\f1\fs32 \cb1 \'a0(Professional Network)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 wellfound.com
+\f1\fs32 \cb1 \'a0(Startup Talent)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 toptal.com
+\f1\fs32 \cb1 \'a0(Freelance Elite)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 coroflot.com
+\f1\fs32 \cb1 \'a0(Industrial Design)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 doximity.com
+\f1\fs32 \cb1 \'a0(Medical/Healthcare)\
+\ls8\ilvl1
+\f3\fs28 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 xing.com
+\f1\fs32 \cb1 \'a0(European Corporate)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls8\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Platform Strategy Logic (The Router):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls8\ilvl1
+\f2\i \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If JD Industry ==\'a0
+\f3\i0\fs28 \cb5 Tech
+\f2\i\fs32 \cb1 \'a0or\'a0
+\f3\i0\fs28 \cb5 SaaS
+\f1\fs32 \cb1 \'a0\uc0\u8594  Prioritize\'a0
+\f3\fs28 \cb5 github.com
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 stackoverflow.com
+\f1\fs32 \cb1 .\
+\ls8\ilvl1
+\f2\i \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If JD Industry ==\'a0
+\f3\i0\fs28 \cb5 Research
+\f2\i\fs32 \cb1 \'a0or\'a0
+\f3\i0\fs28 \cb5 ML
+\f2\i\fs32 \cb1 \'a0or\'a0
+\f3\i0\fs28 \cb5 AI
+\f1\fs32 \cb1 \'a0\uc0\u8594  Prioritize\'a0
+\f3\fs28 \cb5 scholar.google.com
+\f1\fs32 \cb1 .\
+\ls8\ilvl1
+\f2\i \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If JD Industry ==\'a0
+\f3\i0\fs28 \cb5 Design
+\f2\i\fs32 \cb1 \'a0or\'a0
+\f3\i0\fs28 \cb5 UI/UX
+\f1\fs32 \cb1 \'a0\uc0\u8594  Prioritize\'a0
+\f3\fs28 \cb5 dribbble.com
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 sites.google.com
+\f1\fs32 \cb1 .\
+\ls8\ilvl1
+\f2\i \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If JD Industry ==\'a0
+\f3\i0\fs28 \cb5 Startup
+\f2\i\fs32 \cb1 \'a0or\'a0
+\f3\i0\fs28 \cb5 Early Stage
+\f1\fs32 \cb1 \'a0\uc0\u8594  Prioritize\'a0
+\f3\fs28 \cb5 wellfound.com
+\f1\fs32 \cb1 .\
+\ls8\ilvl1
+\f2\i \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If JD Industry ==\'a0
+\f3\i0\fs28 \cb5 Medical
+\f2\i\fs32 \cb1 \'a0or\'a0
+\f3\i0\fs28 \cb5 Healthcare
+\f1\fs32 \cb1 \'a0\uc0\u8594  Prioritize\'a0
+\f3\fs28 \cb5 doximity.com
+\f1\fs32 \cb1 .\
+\ls8\ilvl1
+\f2\i \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Default Fallback
+\f1\i0 \'a0\uc0\u8594 \'a0
+\f3\fs28 \cb5 linkedin.com/in
+\f1\fs32 \cb1 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls8\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Base String Syntax:\'a0
+\f3\fs28 \cb5 site:\{platform\}.com "\{title\}" "\{location\}" AND ("\{skill1\}" OR "\{skill2\}") -jobs -dir -resume
+\f1\fs32 \cb1 .\
+\ls8\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Fallback Mechanism:\'a0If a search returns 0 results, the system automatically drops the least critical\'a0
+\f3\fs28 \cb5 OR
+\f1\fs32 \cb1 \'a0condition and retries. It\'a0
+\f2\i never
+\f1\i0 \'a0shows an empty screen.\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 3.3 The Headless Scraper & Deep-Structured Data Extractor\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls9\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Tool:\'a0Playwright (Headless browser running silently in the background).\
+\ls9\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Step 1:\'a0Execute the X-Ray string on Google. Scrape the top 20-30 profile URLs.\
+\ls9\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Step 2:\'a0Visit\'a0
+\f2\i each
+\f1\i0 \'a0of the profile pages across the different platforms.\
+\ls9\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Step 3:\'a0Extract\'a0Structured HTML data, not just snippets.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls9\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Extracted Data Structure (Universal):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls9\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Headline:\'a0(e.g.,\'a0
+\f2\i "Immediate Joiner | Backend Engineer (2 YOE) @ BrowserStack"
+\f1\i0 )\
+\ls9\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 About/Bio Section:\'a0The candidate's personal summary.\
+\ls9\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Experience History:\'a0Job Titles, Companies, Start/End Dates for each role.\
+\ls9\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Education History:\'a0University, Degree, Field of Study, Graduation Year.\
+\ls9\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Location:\'a0City/Country listed in the profile.\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 3.4 The "Career Footprint" Verification Engine\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls10\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Immediate Blacklist Filter (Pre-Scrape):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls10\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The system reads the\'a0
+\f3\fs28 \cb5 Blacklist Keywords
+\f1\fs32 \cb1 \'a0input from the UI.\
+\ls10\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Before ranking, it scans the\'a0
+\f3\fs28 \cb5 Headline
+\f1\fs32 \cb1 \'a0and\'a0
+\f3\fs28 \cb5 About
+\f1\fs32 \cb1 \'a0sections for any of these keywords (e.g.,\'a0
+\f3\fs28 \cb5 Intern
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Fresher
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Trainee
+\f1\fs32 \cb1 ).\
+\ls10\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If found, the candidate is\'a0immediately dropped\'a0from the pool.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls10\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Experience Verification Logic (Triple-Method):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls10\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Method 1 (Headline):\'a0Parse\'a0
+\f3\fs28 \cb5 (X YOE)
+\f1\fs32 \cb1 \'a0or\'a0
+\f3\fs28 \cb5 X years
+\f1\fs32 \cb1 \'a0from the Headline.\
+\ls10\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Method 2 (Education):\'a0Calculate\'a0
+\f3\fs28 \cb5 (Graduation Year) - (Current Year) + 2 years
+\f1\fs32 \cb1 \'a0(to account for internships).\
+\ls10\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Method 3 (Experience Dates):\'a0Calculate\'a0
+\f3\fs28 \cb5 End Date - Start Date
+\f1\fs32 \cb1 \'a0for each job in the Experience section.\
+\ls10\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The "Verified" Output:\'a0The system takes the highest confidence number from these three methods and assigns a\'a0
+\f3\fs28 \cb5 verified_experience_years
+\f1\fs32 \cb1 \'a0integer.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls10\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Immediate Intent Detection (Tie-Breaker):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls10\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Scans the scraped Headline for\'a0
+\f3\fs28 \cb5 "Immediate Joiner"
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 "Open to work"
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 "Looking for new opportunities"
+\f1\fs32 \cb1 .\
+\ls10\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Stores this as a boolean flag:\'a0
+\f3\fs28 \cb5 is_available_now = true/false
+\f1\fs32 \cb1 .\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 3.5 The Semantic "System Architecture" Ranker\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls11\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Separation of "Must-Haves" and "Nice-to-Haves":\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls11\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Must-Haves (Weight: 70%):\'a0If a candidate misses\'a0
+\f2\i any
+\f1\i0 \'a0Must-Have skill extracted from the JD, their score is capped at\'a050/100, regardless of their seniority or availability.\
+\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Nice-to-Haves (Weight: 30%):\'a0Used\'a0
+\f2\i only
+\f1\i0 \'a0to break ties between candidates who have 100% of the Must-Haves.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls11\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Metric 1: "Impact & Systems Built" Score (Weight: 40% of the total score)\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls11\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Logic:\'a0The AI analyzes the\'a0
+\f3\fs28 \cb5 About
+\f1\fs32 \cb1 \'a0and\'a0
+\f3\fs28 \cb5 Experience
+\f1\fs32 \cb1 \'a0sections for high-impact keywords indicating ownership and system architecture.\
+\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 High-Impact Keywords:\'a0
+\f3\fs28 \cb5 Architected
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Led
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Scaled
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Designed
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Built
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Launched
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Managed
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Owned
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Increased
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Reduced
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Grew
+\f1\fs32 \cb1 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls11\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Metric 2: "Tool & Industry" Vector Match (Weight: 30% of the total score)\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls11\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Logic:\'a0Compares the extracted\'a0
+\f3\fs28 \cb5 skills
+\f1\fs32 \cb1 \'a0and\'a0
+\f3\fs28 \cb5 industry
+\f1\fs32 \cb1 \'a0from the JD against the candidate's\'a0
+\f3\fs28 \cb5 Experience
+\f1\fs32 \cb1 \'a0section.\
+\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Rules:\'a0Exact matches on required skills. Semantic similarity on industry (e.g.,\'a0
+\f3\fs28 \cb5 FinTech
+\f1\fs32 \cb1 \'a0vs.\'a0
+\f3\fs28 \cb5 Finance
+\f1\fs32 \cb1 ).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls11\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Metric 3: "Problem Alignment" Context (Weight: 20% of the total score)\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls11\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Logic:\'a0Analyzes if the candidate has solved similar problems to the JD. (e.g., Did they build a high-scale distributed system? Did they lead a product launch for a similar market?).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls11\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Metric 4: "Tiered Professional Seniority" (Weight: 10% of the total score)\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls11\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Logic:\'a0Scans the candidate's titles for\'a0
+\f3\fs28 \cb5 Lead
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Senior
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Principal
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Director
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 VP
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Head
+\f1\fs32 \cb1 .\
+\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Constraint:\'a0If the JD requires\'a0
+\f3\fs28 \cb5 8+ years
+\f1\fs32 \cb1 , any candidate with\'a0
+\f3\fs28 \cb5 Associate
+\f1\fs32 \cb1 \'a0or\'a0
+\f3\fs28 \cb5 Junior
+\f1\fs32 \cb1 \'a0titles receives a massive score penalty.\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 3.6 The "More Profiles" Neighborhood Overlap\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls12\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Logic:\'a0After ranking the top 5 candidates, the system looks at the\'a0
+\f3\fs28 \cb5 "More profiles for you"
+\f1\fs32 \cb1 \'a0sidebar (or similar "People also viewed" sections) on their platform pages.\
+\ls12\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Action:\'a0If a specific candidate appears in 3 or more of the Top 5 sidebars, they are deemed a\'a0"Neighborhood Fit".\
+\ls12\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Score Boost:\'a0This candidate gets a\'a0+15 points\'a0boost, indicating strong relevance within that specific talent ecosystem.\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs40 \cf2 3.7 The Self-Learning Loop (Data Freshness, Caching, & Feedback)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls13\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Caching:\'a0Every time a profile is scraped, the system stores\'a0
+\f3\fs28 \cb5 profile_url
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 scraped_data
+\f1\fs32 \cb1 \'a0(JSON), and\'a0
+\f3\fs28 \cb5 last_scraped_at
+\f1\fs32 \cb1 \'a0(timestamp) in a local SQLite database.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls13\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Staleness Check:\'a0Before scraping a URL, the system checks the cache.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls13\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If\'a0
+\f3\fs28 \cb5 Current Date - last_scraped_at < 7 days
+\f1\fs32 \cb1 \'a0\uc0\u8594  Use cached data.\
+\ls13\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If\'a0
+\f3\fs28 \cb5 > 7 days
+\f1\fs32 \cb1 \'a0\uc0\u8594  Re-scrape to ensure freshness.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls13\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Search History Log:\'a0Every search is logged with:\'a0
+\f3\fs28 \cb5 jd_id
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 search_string_used
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 top_3_candidates
+\f1\fs32 \cb1 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls13\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Feedback Loop (The Retrainer):\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls13\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The UI allows users to mark a candidate as\'a0
+\f3\fs28 \cb5 "Shortlisted"
+\f1\fs32 \cb1 \'a0or\'a0
+\f3\fs28 \cb5 "Ignored"
+\f1\fs32 \cb1 .\
+\ls13\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 When\'a0
+\f3\fs28 \cb5 "Shortlisted"
+\f1\fs32 \cb1 , a modal asks:\'a0
+\f2\i "Why did you shortlist this candidate?"
+\f1\i0 \'a0(Options:\'a0
+\f3\fs28 \cb5 Perfect Match
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Good Experience
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 High Impact System
+\f1\fs32 \cb1 ).\
+\ls13\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 When\'a0
+\f3\fs28 \cb5 "Ignored"
+\f1\fs32 \cb1 , a modal asks:\'a0
+\f2\i "Why did you ignore this candidate?"
+\f1\i0 \'a0(Options:\'a0
+\f3\fs28 \cb5 Wrong Location
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Wrong Industry
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Underqualified
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Job Hopper
+\f1\fs32 \cb1 ).\
+\ls13\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The system logs these reasons. Over time, it learns that\'a0
+\f3\fs28 \cb5 "Job Hopper"
+\f1\fs32 \cb1 \'a0profiles should be heavily penalized, even if they have perfect skills.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs44 \cf2 \cb1 \strokec2 SECTION 4: ERROR HANDLING & FAILSAFES\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls14\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Failsafe 1 (Scraper Blocked):\'a0If the platform blocks the bot, the system falls back to\'a0
+\f3\fs28 \cb5 "Snippet Mode"
+\f1\fs32 \cb1 . It ranks purely based on the Google Snippet. The confidence score is downgraded to\'a0
+\f3\fs28 \cb5 80%
+\f1\fs32 \cb1 .\
+\ls14\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Failsafe 2 (Broken/Private Link):\'a0If the scraper finds a 404 or Private profile, it skips it and moves to the next URL without crashing.\
+\ls14\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Failsafe 3 (Empty Response):\'a0If a search returns 0 results, the system drops the least critical requirement (e.g., drops a secondary skill or the location) and retries. It\'a0
+\f2\i guarantees
+\f1\i0 \'a0results.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs44 \cf2 \cb1 \strokec2 SECTION 5: REQUIRED TECH STACK\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls15\ilvl0
+\f1\b0\fs32 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Frontend:\'a0React (Vite) + Standard CSS (No heavy UI libraries).\
+\ls15\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Backend:\'a0Node.js (Express) + Playwright for browser automation.\
+\ls15\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 AI Engine:\'a0Groq API (
+\f3\fs28 \cb5 llama-3.3-70b-versatile
+\f1\fs32 \cb1 ).\
+\ls15\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Store:\'a0A local SQLite database for storing\'a0
+\f3\fs28 \cb5 Profiles
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 Search_History
+\f1\fs32 \cb1 , and\'a0
+\f3\fs28 \cb5 User_Feedback
+\f1\fs32 \cb1 .\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs44 \cf2 \cb1 \strokec2 \uc0\u9989  ACCEPTANCE CRITERIA (The "Magic" Checklist)\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f1\b0\fs32 \cf2 The system is considered\'a0"Enterprise Complete"\'a0and\'a0"Magic"\'a0when:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls16\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 A Recruiter pastes a JD for a\'a0
+\f3\fs28 \cb5 "Senior Backend Engineer"
+\f1\fs32 \cb1 \'a0at a\'a0
+\f3\fs28 \cb5 "FinTech"
+\f1\fs32 \cb1 \'a0company requiring\'a0
+\f3\fs28 \cb5 8+ years
+\f1\fs32 \cb1 , enters blacklist keywords\'a0
+\f3\fs28 \cb5 "Intern, Fresher"
+\f1\fs32 \cb1 , and checks\'a0
+\f3\fs28 \cb5 "Prioritize Immediate Joiners"
+\f1\fs32 \cb1 .\
+\ls16\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 They click\'a0
+\f3\fs28 \cb5 "Find Candidates"
+\f1\fs32 \cb1 .\
+\ls16\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Within\'a030 seconds, the screen displays 10 ranked cards.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls16\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The\'a0#1 Ranked Card\'a0belongs to a candidate who:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls16\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Has\'a0
+\f3\fs28 \cb5 8+ Verified Years
+\f1\fs32 \cb1 \'a0(Calculated via Graduation Year).\
+\ls16\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Has\'a0
+\f3\fs28 \cb5 "Architected"
+\f1\fs32 \cb1 \'a0or\'a0
+\f3\fs28 \cb5 "Scaled"
+\f1\fs32 \cb1 \'a0in their experience.\
+\ls16\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Has\'a0
+\f3\fs28 \cb5 Python
+\f1\fs32 \cb1 \'a0and\'a0
+\f3\fs28 \cb5 React
+\f1\fs32 \cb1 \'a0matches in their skills.\
+\ls16\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Has worked in\'a0
+\f3\fs28 \cb5 FinTech
+\f1\fs32 \cb1 \'a0or a similar industry.\
+\ls16\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Does NOT contain\'a0
+\f3\fs28 \cb5 "Intern"
+\f1\fs32 \cb1 ,\'a0
+\f3\fs28 \cb5 "Fresher"
+\f1\fs32 \cb1 , or\'a0
+\f3\fs28 \cb5 "Trainee"
+\f1\fs32 \cb1 \'a0in their headline.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls16\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The\'a0
+\f3\fs28 \cb5 "\uc0\u55357 \u57056 \u65039  View X-Ray Strings Used"
+\f1\fs32 \cb1 \'a0dropdown reveals the exact Boolean strings used.\
+\ls16\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The Recruiter clicks\'a0
+\f3\fs28 \cb5 "Export"
+\f1\fs32 \cb1 \'a0and receives a\'a0
+\f3\fs28 \cb5 .csv
+\f1\fs32 \cb1 \'a0file within 2 seconds.\
+\ls16\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	7	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The Recruiter clicks\'a0
+\f3\fs28 \cb5 "Shortlist"
+\f1\fs32 \cb1 \'a0on Candidate #1 and selects\'a0
+\f3\fs28 \cb5 "Perfect Match"
+\f1\fs32 \cb1 \'a0as the reason.\
+\ls16\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	8	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The next time the Recruiter searches for a similar JD, the system\'a0remembers\'a0the successful string and the\'a0
+\f3\fs28 \cb5 "Perfect Match"
+\f1\fs32 \cb1 \'a0profile, prioritizing them over the defaults.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 \cb1 \strokec2 This is the absolute, definitive, comprehensive Master Requirements Document.\
+\pard\pardeftab720\partightenfactor0
+\cf2 If you approve this document, I will write the exact codebase to match it. I have captured every single requirement we discussed. If I missed anything, I will rewrite it 10 million times.\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf13 \strokec13 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf13 \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf13 \
+}
