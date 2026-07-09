@@ -1,5 +1,26 @@
-node_modules
-.env
+# Secrets & Env
+.env*
+*.pem
+
+# Cloudflare Wrangler & D1
+.wrangler/
+.mf/
+
+# Firebase
+.firebase/
+.firebaserc
+firebase.json
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build Artifacts / Extension packages
+extension/*.crx
+extension/*.zip
+
+# System/IDE
 .DS_Store
-dist
-.vercel
+*.log
+dist/
+.vercel/

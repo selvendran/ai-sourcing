@@ -1,0 +1,24 @@
+name = "sourcing-engine"
+main = "src/worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sourcing-db"
+database_id = "1fec6b5d-6e63-4e56-a875-3674431ed37b"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "7ff1457247fa4536a9bd708fab761ab5"
+
+[[r2_buckets]]
+binding = "PROFILES_BUCKET"
+bucket_name = "profiles-bucket"
+
+[ai]
+binding = "AI"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "sourcing-index"

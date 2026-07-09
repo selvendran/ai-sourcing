@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Sourcing Engine Auto-Ingest",
+  "version": "2.0.0",
+  "description": "Automatically extracts rich candidate data from search pages and profile pages, ingesting silently into the Sourcing Engine.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://sourcing-engine.sourcing-engine.workers.dev/*",
+    "*://*.linkedin.com/*",
+    "*://*.google.com/*",
+    "*://*.bing.com/*",
+    "*://*.github.com/*",
+    "*://*.stackoverflow.com/*",
+    "*://*.twitter.com/*",
+    "*://*.x.com/*",
+    "*://*.dribbble.com/*",
+    "*://*.wellfound.com/*",
+    "*://*.xing.com/*",
+    "*://*.coroflot.com/*",
+    "*://*.sites.google.com/*",
+    "*://*.scholar.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/in/*",
+        "*://*.google.com/search*",
+        "*://*.bing.com/search*",
+        "*://*.github.com/*",
+        "*://*.stackoverflow.com/users/*",
+        "*://*.twitter.com/*",
+        "*://*.x.com/*",
+        "*://*.dribbble.com/*",
+        "*://*.wellfound.com/u/*",
+        "*://*.xing.com/profile/*",
+        "*://*.coroflot.com/*",
+        "*://*.sites.google.com/*",
+        "*://*.scholar.google.com/citations/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

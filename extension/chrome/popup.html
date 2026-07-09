@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Sourcing Engine Ingest</title>
+  <style>
+    body {
+      width: 320px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0b0d13;
+      color: #e1e5ec;
+      padding: 16px;
+    }
+    h1 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0 0 12px 0;
+      color: #fff;
+    }
+    label {
+      display: block;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #8b8f9a;
+      margin-bottom: 4px;
+    }
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      background: #14171f;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 8px 10px;
+      color: #e1e5ec;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-bottom: 8px;
+    }
+    #saveKey {
+      background: #2a2f3a;
+      color: #e1e5ec;
+    }
+    #scrapeBtn {
+      background: linear-gradient(135deg, #6a5acd 0%, #00bfff 100%);
+      color: #fff;
+    }
+    #status {
+      font-size: 12px;
+      color: #8b8f9a;
+      margin-top: 6px;
+      line-height: 1.4;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sourcing Engine Ingest</h1>
+
+  <label for="apiKey">Ingest API Key</label>
+  <input id="apiKey" type="password" placeholder="paste your ingest-scoped key" />
+  <button id="saveKey">Save Key</button>
+
+  <div id="registerPanel" style="display:none; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 10px; margin-top: 6px;">
+    <label for="regEmail">Work or Personal Email</label>
+    <input id="regEmail" type="email" placeholder="you@company.com" />
+    <label for="regName">Full Name</label>
+    <input id="regName" type="text" placeholder="Jane Doe" />
+    <label for="regCompany">Company</label>
+    <input id="regCompany" type="text" placeholder="Acme Corp" />
+    <label for="regMobile">Mobile (optional)</label>
+    <input id="regMobile" type="tel" placeholder="+1 555 000 0000" />
+    <label style="display:flex; align-items:center; gap:6px; text-transform:none; font-size:12px; margin-bottom:10px;">
+      <input id="regConsent" type="checkbox" style="width:auto; margin:0;" />
+      I agree to my info being used to issue access to this tool
+    </label>
+    <button id="registerBtn" style="background: linear-gradient(135deg, #6a5acd 0%, #00bfff 100%); color:#fff;">Register &amp; Get Access</button>
+  </div>
+
+  <label for="jdText">Search label (optional)</label>
+  <input id="jdText" type="text" placeholder="e.g. Senior Backend Engineer" />
+
+  <button id="scrapeBtn">Scrape This Tab &amp; Ingest</button>
+
+  <div id="status"></div>
+
+  <div style="border-top: 1px solid rgba(255,255,255,0.08); margin-top: 14px; padding-top: 12px;">
+    <label for="jdParseInput">Paste Job Description to Generate X-Ray Search</label>
+    <textarea id="jdParseInput" rows="5" style="width:100%; box-sizing:border-box; background:#14171f; border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:8px 10px; color:#e1e5ec; font-size:13px; margin-bottom:10px; resize:vertical;" placeholder="Paste the full job description here..."></textarea>
+    <button id="generateSearchBtn">Generate Search</button>
+
+    <div id="generateResult" style="display:none;">
+      <label for="platformSelect">Platform</label>
+      <select id="platformSelect" style="width:100%; box-sizing:border-box; background:#14171f; border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:8px 10px; color:#e1e5ec; font-size:13px; margin-bottom:10px;"></select>
+
+      <label for="queryOutput">Generated Query</label>
+      <textarea id="queryOutput" rows="3" readonly style="width:100%; box-sizing:border-box; background:#14171f; border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:8px 10px; color:#e1e5ec; font-size:12px; margin-bottom:10px; resize:vertical;"></textarea>
+
+      <div style="display:flex; gap:8px;">
+        <button id="openGoogleBtn" style="flex:1; background:linear-gradient(135deg,#6a5acd,#00bfff); color:#fff;">Open in Google</button>
+        <button id="openBingBtn" style="flex:1; background:#2a2f3a; color:#e1e5ec;">Open in Bing</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

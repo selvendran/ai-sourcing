@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Sourcing Engine Ingest",
+  "version": "1.0.0",
+  "description": "Scrape LinkedIn profile links from the current tab and ingest them into the Sourcing Engine backend.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://sourcing-engine.sourcing-engine.workers.dev/*"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sourcing-engine-ingest@yourcompany.example",
+      "strict_min_version": "109.0"
+    }
+  }
+}
